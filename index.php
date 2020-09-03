@@ -1,3 +1,5 @@
+
+
 <!-- Riscrivere questa pagina del sito google
 https://policies.google.com/faq.
 Ci sono diverse domande con relative risposte.
@@ -52,10 +54,10 @@ echo "<br>";
 
 
 foreach ($db as $value){  
-
-        $ok = $value['domanda'].'<br>';
-        $risp = $value['risposta'];
-
+    
+    $ok = $value['domanda'].'<br>';
+    $risp = $value['risposta'];
+    
         echo '<h2>'.$ok.'</h2>'.$risp;
         echo "<br>";
         echo "<br>";
@@ -63,4 +65,7 @@ foreach ($db as $value){
 
 }
 
+
 ?>
+
+
