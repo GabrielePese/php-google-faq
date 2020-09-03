@@ -5,7 +5,7 @@ Gestire il "Database" e la visualizzazione di
 queste domande e risposte con PHP. -->
 
 <?php 
-echo 'GOOGLE FAQ';
+echo '<h1>'.'GOOGLE FAQ'.'</h1>';
 echo "<br>";
 echo "<br>";
 
@@ -56,7 +56,7 @@ foreach ($db as $value){
         $ok = $value['domanda'].'<br>';
         $risp = $value['risposta'];
 
-        echo '<h1>'.$ok.'</h1>'.$risp;
+        echo '<h2>'.$ok.'</h2>'.$risp;
         echo "<br>";
         echo "<br>";
         echo "<br>";
